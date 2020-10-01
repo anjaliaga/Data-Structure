@@ -1,5 +1,7 @@
 class Main{
     public static void main(String[] args){
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+        String str = sc.readLine();
+        System.out.println(str);
     }
 }
